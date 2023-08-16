@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fdb7d3aa1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/K .jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Development</p>
+                <h1>Hi, I'm Prince Jason<br>Bautista</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/j.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Filipino web developer student at Phinma-UPang. I'll spending a lot of time playing video games and hanging out also I play bass guitar.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link">Education</p>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2021</span><br>SHS-ICT at Mangaldan National High School</li>
+                            <li><span>2019</span><br>JHS at Mangaldan National High School</li>
+                            <li><span>2015</span><br>Elementary at David Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------projects----------- -->
+            <div id="projects">
+                <div class="container">
+                    <h1 class="sub-title">Projects</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="img/pinasarap.jpg">
+                            <div class="layer">
+                                <h3>PINASarap</h3>
+                                <p>Food recipes mobile app.</p>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="img/SineMotoh.jpg"></a>
+                            <div class="layer">
+                                <a href="https://zzypherr19.github.io/SineMoToh/"><h3>SineMotoh</h3></a>
+                                <p>Movie Recommendation and Reviewing.</p>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <!-- -----------hobbies----------- -->
+        <div id="hobbies">
+            <div class="container">
+                <h1 class="sub-title">Hobbies</h1>
+                <div class="hobbies-list">
+                    <div>
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h2>Video Games</h2>
+                        <p>I play a lot of video games like FPS, RPG and many more. </p>
+                    </div>
+                       <div>
+                        <i class="fa-solid fa-basketball"></i>
+                        <h2>Sports</h2>
+                        <p>I play basketball ever since and this is my favorite sports. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- ------------contact------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <div class="social-icons">
+                            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-sharp fa-solid fa-at"></i></a>
+                            <h3><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></h3>
+                            <a href="https://www.facebook.com/jsonhrt"><i class="fa-brands fa-facebook"></i></a>
+                            <h3><a href="https://www.facebook.com/jsonhrt">Facebook</a></h3>
+                            <a href="https://www.instagram.com/frrr.jason/"><i class="fa-brands fa-instagram"></i></a>
+                            <h3><a href="https://www.instagram.com/frrr.jason/">Instagram</a></h3>
+                        </div>
+                    </div>
+                    <div class="contact-right"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+</body>
+</html>
